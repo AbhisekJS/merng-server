@@ -9,7 +9,7 @@ const app = express()
 const typeDefs = require('./graphQL/typeDefs')
 const resolvers = require('./graphQL/resolvers')
 
-const PORT = process.env.port || 5000;
+const PORT = process.env.PORT || 5000;
 
 const uri = process.env.MONGO_URI;
 
